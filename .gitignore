@@ -1,0 +1,22 @@
+# Materiais de trabalho preservados localmente; usar apenas cópias revisadas.
+evidencias/originais/
+evidencias/manifesto-originais-sha256.txt
+PLANO-DO-PROJETO.md
+
+# Sessões e exportações brutas não fazem parte do portfólio.
+*.har
+*.pcap
+*.pcapng
+.env
+.env.*
+cookies.txt
+tokens.txt
+*.log
+
+# Ferramentas locais e pacotes gerados.
+.DS_Store
+Thumbs.db
+__pycache__/
+*.zip
+.venv/
+node_modules/

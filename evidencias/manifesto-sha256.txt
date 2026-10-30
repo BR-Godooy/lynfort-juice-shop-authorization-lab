@@ -1,0 +1,10 @@
+96faadaca9d6f700ae122745ca49b85d6f6927b2ed3706f9265d848968d9afbb  sanitizadas/E-01-ambiente-docker.png
+4ad06844f4f123c3fe38bfe7a89727b96db12e154d6bc7289c1fdba4745a9dc2  sanitizadas/E-02-versao-data.png
+88e304ff1134edbb9ab99f5e08674be300c3821ec11d83b4774ff57a2321fc42  sanitizadas/E-03-carrinho-conta-A.png
+00edcaf6d5a1f21a74db472414c22a912747483efc170c5f8d099b5c7e145be0  sanitizadas/E-04-carrinho-conta-B.png
+bde812e9646f0489a6e4408d0c30786bc715b1e7f5d6587348cada29251af4b7  sanitizadas/E-05-A-acessa-carrinho-B.png
+166de2a4adf55cd6f379fa2ece2a6fa7687af39433f1ca6f3f165572a521e7e0  sanitizadas/E-06-A-recebe-produto-B.png
+a4b3cc8064c6a88d4ea14be7a1439b07406b819e22438e9ccf0847fa2abd5a03  sanitizadas/E-10-encerramento-docker.png
+30ffeed55c3156b28c12b795bd6a547854791caebedca452e6d0b97ecd8f8d8c  sanitizadas/execucao-02/E-08-controle-conta-A.png
+f12edcaa47cebc21d18ded165739e9e4b272e8b38e5ca419a98fff0e81453310  sanitizadas/execucao-02/E-09-controle-conta-B.png
+beed8a85ec838386be9e6c4141de96c9e60d186656b3ac887da663c93e9eb09d  transcricoes/execucao-01-controles.json

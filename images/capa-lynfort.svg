@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Lynfort Lab — Autorização entre contas</title>
+<desc id="desc">Capa do portfólio de laboratório local OWASP Juice Shop 20.3.0. Dois carrinhos, duas contas e uma pergunta de autorização. Ilustração editorial, não evidência de execução.</desc>
+<defs><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
+<rect width="1200" height="440" rx="24" fill="#151820"/>
+<rect width="1200" height="440" rx="24" fill="url(#grid)"/>
+<path d="M0 34V24Q0 0 24 0H1176Q1200 0 1200 24V34Z" fill="#FFD600"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="56" y="89" font-size="19" fill="#FFD600" font-weight="700" letter-spacing="4">LYNFORT / LAB</text>
+<text x="56" y="162" font-size="46" fill="#F6F7FA" font-weight="700">Autorização</text>
+<text x="56" y="218" font-size="46" fill="#F6F7FA" font-weight="700">entre contas</text>
+<text x="58" y="260" font-size="20" fill="#BDC4D2">OWASP Juice Shop · Evidências próprias</text>
+<rect x="56" y="293" width="141" height="34" rx="17" fill="#242A35"/>
+<text x="126" y="316" text-anchor="middle" font-size="15" fill="#FFD600">VERSÃO 20.3.0</text>
+<rect x="210" y="293" width="215" height="34" rx="17" fill="#242A35"/>
+<text x="317" y="316" text-anchor="middle" font-size="15" fill="#DEE3EC">LOCAL 127.0.0.1:3000</text>
+<text x="56" y="389" font-size="16" fill="#929CAB">Victor Godoy · Segurança de aplicações</text>
+<g transform="translate(744 112)">
+<rect width="168" height="188" rx="18" fill="#202631" stroke="#394353"/>
+<rect x="192" width="168" height="188" rx="18" fill="#202631" stroke="#394353"/>
+<circle cx="84" cy="53" r="26" fill="#FFD600"/>
+<text x="84" y="62" text-anchor="middle" font-size="26" font-weight="700" fill="#151820">A</text>
+<circle cx="276" cy="53" r="26" fill="#FFD600"/>
+<text x="276" y="62" text-anchor="middle" font-size="26" font-weight="700" fill="#151820">B</text>
+<text x="84" y="111" text-anchor="middle" font-size="18" fill="#F6F7FA">Carrinho A</text>
+<text x="276" y="111" text-anchor="middle" font-size="18" fill="#F6F7FA">Carrinho B</text>
+<text x="84" y="145" text-anchor="middle" font-size="14" fill="#B8C1CF">Apple Juice</text>
+<text x="276" y="145" text-anchor="middle" font-size="14" fill="#B8C1CF">Green Smoothie</text>
+<path d="M70 217H290M70 217l10-7M70 217l10 7M290 217l-10-7M290 217l-10 7" fill="none" stroke="#FFD600" stroke-width="2"/>
+<text x="180" y="252" text-anchor="middle" font-size="17" fill="#D9DFE9">Quem pode consultar cada objeto?</text>
+</g>
+</g>
+</svg>

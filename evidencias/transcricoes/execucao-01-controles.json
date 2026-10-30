@@ -1,0 +1,43 @@
+{
+  "tipo": "transcricao_parcial_de_campos_fornecidos_pelo_executor",
+  "origem": "JSONs e URLs copiados pelo executor no historico da conversa, primeira execucao",
+  "nota": "Organizacao posterior de campos selecionados; nao e captura HTTP bruta nem nova execucao. Nao inclui cabecalhos de autenticacao.",
+  "controles": [
+    {
+      "caso": "AUT-01",
+      "sessao_informada": "A",
+      "url_informada": "http://127.0.0.1:3000/rest/basket/6",
+      "campos_da_resposta": {
+        "status": "success",
+        "data": {
+          "id": 6,
+          "UserId": 25,
+          "createdAt": "2026-10-29T16:53:11.450Z",
+          "Products": [{
+            "id": 1,
+            "name": "Apple Juice (1000ml)",
+            "BasketItem": {"ProductId": 1, "BasketId": 6, "id": 9, "quantity": 1}
+          }]
+        }
+      }
+    },
+    {
+      "caso": "AUT-02",
+      "sessao_informada": "B",
+      "url_informada": "http://127.0.0.1:3000/rest/basket/7",
+      "campos_da_resposta": {
+        "status": "success",
+        "data": {
+          "id": 7,
+          "UserId": 26,
+          "createdAt": "2026-10-29T16:55:27.063Z",
+          "Products": [{
+            "id": 22,
+            "name": "Green Smoothie",
+            "BasketItem": {"ProductId": 22, "BasketId": 7, "id": 10, "quantity": 1}
+          }]
+        }
+      }
+    }
+  ]
+}

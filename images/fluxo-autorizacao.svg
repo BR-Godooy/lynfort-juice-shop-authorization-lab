@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Contas, carrinhos e fronteira de autorização</title>
+<desc id="desc">A é titular do carrinho 6 com Apple Juice. B é titular do carrinho 7 com Green Smoothie. O teste compara leitura própria e consulta cruzada. A consulta atribuída à sessão A recebeu o objeto de B. O arquivo original do sentido inverso está indisponível. Este desenho explica o método, não constitui captura de execução.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#FFD600" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="650" rx="22" fill="#151820"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="48" y="56" font-size="15" font-weight="700" letter-spacing="3" fill="#FFD600">LYNFORT / MÉTODO</text>
+<text x="48" y="99" font-size="31" font-weight="700" fill="#F6F7FA">A sessão identifica a conta. A autorização protege o carrinho.</text>
+<text x="48" y="132" font-size="17" fill="#B8C1CF">Dois contextos de navegador · Objetos conhecidos · Comparação do conteúdo retornado</text>
+<rect x="48" y="173" width="330" height="200" rx="16" fill="#202631" stroke="#475363"/>
+<rect x="822" y="173" width="330" height="200" rx="16" fill="#202631" stroke="#475363"/>
+<text x="76" y="213" font-size="24" font-weight="700" fill="#FFD600">CONTA A</text>
+<text x="850" y="213" font-size="24" font-weight="700" fill="#FFD600">CONTA B</text>
+<text x="76" y="244" font-size="16" fill="#D4DBE5">Janela normal · UserId 25</text>
+<text x="850" y="244" font-size="16" fill="#D4DBE5">Janela privativa · UserId 26</text>
+<path d="M76 261H350M850 261H1124" stroke="#475363"/>
+<text x="76" y="295" font-size="22" font-weight="600" fill="#F6F7FA">Carrinho 6</text>
+<text x="850" y="295" font-size="22" font-weight="600" fill="#F6F7FA">Carrinho 7</text>
+<text x="76" y="327" font-size="18" fill="#D4DBE5">Apple Juice (1000ml)</text>
+<text x="850" y="327" font-size="18" fill="#D4DBE5">Green Smoothie</text>
+<text x="76" y="353" font-size="14" fill="#99A6B8">Controle próprio: AUT-01</text>
+<text x="850" y="353" font-size="14" fill="#99A6B8">Controle próprio: AUT-02</text>
+<path d="M397 234H800" stroke="#FFD600" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="600" y="217" text-anchor="middle" font-size="18" fill="#FFD600">AUT-03 · A solicita B</text>
+<text x="600" y="266" text-anchor="middle" font-size="15" fill="#D4DBE5">Retorno preservado em E-05 e E-06</text>
+<path d="M801 321H397" stroke="#FFD600" stroke-width="2" stroke-dasharray="7 6" marker-end="url(#arrow)"/>
+<text x="600" y="307" text-anchor="middle" font-size="18" fill="#FFD600">AUT-04 · B solicita A</text>
+<text x="600" y="352" text-anchor="middle" font-size="15" fill="#D4DBE5">Arquivo original indisponível</text>
+<rect x="48" y="402" width="1104" height="114" rx="14" fill="#242A35"/>
+<text x="72" y="436" font-size="18" font-weight="700" fill="#F6F7FA">REGRA DE UMA APLICAÇÃO PROTEGIDA</text>
+<text x="72" y="467" font-size="18" fill="#D4DBE5">Permitir leitura própria. Negar leitura entre titulares sem permissão.</text>
+<text x="72" y="494" font-size="16" fill="#B8C1CF">A identidade enviada nas consultas cruzadas foi informada pelo executor; não há rastreio independente da credencial.</text>
+<text x="48" y="556" font-size="16" fill="#D4DBE5">Primeira execução: comparação entre contas. Segunda execução: somente controles próprios após reinício.</text>
+<path d="M48 579H1152" stroke="#394353"/>
+<text x="48" y="612" font-size="15" fill="#FFD600">Ilustração do método; não é captura de execução.</text>
+</g>
+</svg>
